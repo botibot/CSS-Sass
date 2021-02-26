@@ -1,0 +1,2 @@
+# Ignore al node modules in the project
+node_modules/

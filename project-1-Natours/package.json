@@ -1,0 +1,15 @@
+{
+  "name": "project-1-natours",
+  "version": "1.0.0",
+  "description": "descr",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch ./resources/sass/main.scss ./site/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}

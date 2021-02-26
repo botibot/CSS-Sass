@@ -1,0 +1,19 @@
+// ?Star is the universal selector
+// ?Select everything to reset the page bfore we start working on it
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  //This defines what 1 rem is:
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
