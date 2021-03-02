@@ -1,0 +1,29 @@
+@mixin clearfix($display) {
+  &::after {
+    content: "";
+    display: $display;
+    clear: both;
+  }
+}
+
+@mixin backgroundImage($height, $color1, $color2, $url) {
+  background-size: cover;
+  height: $height;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color1, 0.2),
+      rgba($color2, 0.8)
+    ),
+    url($url);
+}
+
+@mixin clipeffect {
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

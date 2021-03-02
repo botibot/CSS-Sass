@@ -1,12 +1,10 @@
 .header {
-  height: 95vh;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba($color-primary-light, 0.2),
-      rgba($color-primary-dark, 0.8)
-    ),
-    url("../../resources/img/hero.jpg");
-  background-size: cover;
+  @include backgroundImage(
+    95vh,
+    $color-primary-light,
+    $color-primary-dark,
+    "../../resources/img/hero.jpg"
+  );
   background-position: top;
   position: relative;
 
